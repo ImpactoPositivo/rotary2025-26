@@ -393,6 +393,8 @@ div#clique a:hover {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
     background-color: var(--cor3);
     border-left: 1px solid --cor3;
     border-right: 1px solid --cor3;
@@ -401,10 +403,37 @@ footer {
     text-align: center;
 }
 
-footer h1 {
-    font-size: 1em;
+footer #selo{
+    height: 12vh;
+    padding: 0px 2px;
 }
 
-footer > p {
+footer .rodape{
+    margin-left: 20px;
+    padding: 5px 0px;
+}
+
+footer .rodape h1 {
+    font-size: 1em;
+    text-align: left;
+}
+
+footer .rodape > p {
     font-size: .8em;
+    text-align: left;
+}
+
+footer .rodape a{
+    font-size: .8em;
+    color: white;
+    font-weight: bold;
+    padding: 2px 0px;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;  
+}
+
+footer .rodape a:hover{
+    color: var(--cor2);
+    text-decoration: underline;
 }
