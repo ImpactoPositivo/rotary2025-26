@@ -321,6 +321,13 @@ section a:hover {
     text-decoration: underline;
 }
 
+.assinatura{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
 img#foto {
     width: 25%;
     padding: 10px;
@@ -345,7 +352,7 @@ div#foto1 figcaption {
 
 div#nome {
     padding-top: 40px;
-    padding-bottom: 45px;
+    padding-bottom: 10px;
 }
 
 div#nome h1 {
@@ -357,11 +364,12 @@ div#nome h2 {
 }
 
 div#nome h3 {
-    font-size: 0.9em;
+    font-size: 0.85em;
 }
 
 div#nome p {
     font-size: 0.7em;
+    padding-left: 10px !important;
 }
 
 div#rodape {
