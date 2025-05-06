@@ -207,7 +207,7 @@ section p {
 .bg2 .atribuicao .btn{
     background-color: var(--cor2);
     font-weight: bold;
-    padding: 3px 10px;
+    padding: 0px 10px 3px 10px;
     border: none;
     border-radius: 25px;
     margin-left: 50%;
@@ -413,7 +413,7 @@ footer {
 
 footer #selo{
     height: 12vh;
-    padding: 0px 2px;
+    margin-left: 10px;
 }
 
 footer .rodape{
