@@ -65,12 +65,12 @@ main {
 }
 
 .ano25 #logo {
-    height: 5vw;
+    height: 15vw;
     padding: 0px 0px 0px 10px;
 }
 
 .ano25 #selo {
-    height: 5vw;
+    height: 15vw;
     padding: 0px 10px 0px 0px;
 }
 
@@ -78,8 +78,8 @@ header div#cabecario {
     background-color: var(--cor2);
     border-left: 1px solid var(--cor4);
     border-right: 1px solid var(--cor4);
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: var(cor3);
 }
 
