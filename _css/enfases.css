@@ -260,6 +260,18 @@ section {
     padding: 15px 15px 15px 0px;
 }
 
+.bg2 .metas {
+    padding-top: 0px;
+    font-size: .9em;
+    line-height: 1.5em;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.bg2 .metas li{
+    padding-left: 10px;
+}
+
 section a {
     color: #3b3535;
     font-weight: bold;
