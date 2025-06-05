@@ -361,15 +361,17 @@ div#nome h1 {
 
 div#nome h2 {
     font-size: 1em;
+    padding: 2px 0px 2px 10px !important;
 }
 
 div#nome h3 {
     font-size: 0.85em;
+    padding: 2px 0px 2px 10px !important;
 }
 
 div#nome p {
     font-size: 0.7em;
-    padding-left: 10px !important;
+    padding: 2px 0px 2px 10px !important;
 }
 
 div#rodape {

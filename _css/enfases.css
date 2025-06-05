@@ -193,9 +193,16 @@ section {
 }
 
 .bg2 ol li .project{
-    padding: 5px 15px;
+    padding-top: 0px;
     color: black;
-    font-weight: 200;
+    font-family: var(--fonte1);
+    font-weight: 100;
+    font-size: .85rem;
+}
+
+.bg2 .project li{
+    padding: 5px 15px;
+
 }
 
 .bg2 .p4-text .p4-list{
