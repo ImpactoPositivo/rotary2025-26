@@ -32,7 +32,6 @@
     --fonte3: 'Frutuger Ultra Black'. cursive;
     --fonte4: 'Open Sans', sans-serif;
     --fonte5: 'Open Sans', sans-serif;
-}
 
 * {
     padding: 0px;
@@ -40,20 +39,13 @@
 }
 
 body {
-    font-family: var(--fonte1);
+    font-family: var(--fonte4);
     max-width: 1080px;
     max-height: 2400px;
     margin: auto;
     background-color: white;
     border-left: 1px solid --cor1;
     border-right: 1px solid --cor1;
-}
-
-main {
-    font-family: 'Open Sans', sans-serif;;
-    max-width: 400px;
-    max-height: 650px;
-    margin: auto;     
 }
 
 header {

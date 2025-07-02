@@ -40,7 +40,7 @@
 }
 
 body {
-    font-family: var(--fonte1);
+    font-family: var(--fonte4);
     max-width: 1080px;
     max-height: 2400px;
     margin: auto;
@@ -49,11 +49,14 @@ body {
     border-right: 1px solid --cor1;
 }
 
-main {
-    font-family: 'Open Sans', sans-serif;;
-    max-width: 400px;
-    max-height: 650px;
-    margin: auto;     
+.ano25 #logo {
+    height: 10vh;
+    padding: 0px 0px 0px 10px;
+}
+
+.ano25 #selo {
+    height: 15vh;
+    padding: 0px 10px 0px 0px;
 }
 
 .corpo {
@@ -67,11 +70,11 @@ main {
 }    
 
 header figure {
-    background-color: #00adbb;
+    background-color: var(--cor3);
 }
 
 header img#logo {
-    width: 35%;
+    height: 10%;
     padding: 10px; 
 }
 

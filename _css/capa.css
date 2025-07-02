@@ -43,18 +43,11 @@
 }
 
 body {
-    font-family: var(--fonte1);
+    font-family: var(--fonte4);
     max-width: 1080px;
     max-height: 2400px;
     margin: auto;
     background-color: white;
-}
-
-main {
-    font-family: 'Open Sans', sans-serif;;
-    max-width: 400px;
-    min-height: 100vh;
-    margin: auto;     
 }
 
 .ano25 {

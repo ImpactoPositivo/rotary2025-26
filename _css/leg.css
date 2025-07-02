@@ -40,55 +40,13 @@
 }
 
 body {
-    font-family: var(--fonte1);
+    font-family: var(--fonte4);
     max-width: 1080px;
     max-height: 2400px;
     margin: auto;
     background-color: white;
     border-left: 1px solid --cor1;
     border-right: 1px solid --cor1;
-}
-
-main {
-    font-family: 'Open Sans', sans-serif;;
-    max-width: 400px;
-    max-height: 650px;
-    margin: auto;     
-}
-
-header figure {
-    background-color: var(--cor1);
-}
-
-header img#logo {
-    width: 35%;
-    padding: 10px; 
-}
-
-header div#cabecario {
-    background-color: var(--cor2);
-    border-left: 1px solid var(--cor3);
-    border-right: 1px solid var(--cor3);
-    padding: 5px;
-    color: var(cor3);
-}
-
-header h1 {
-    font-size: 1.5em;
-    text-align: center;
-}
-
-header h2 {
-    font-size: .8em;
-    text-align: center;
-    padding: 5px;
-}
-
-header h3 {
-    font-size: .8em;
-    text-align: center;
-    background-color: rgba(211, 211, 211, 0.5);
-    padding: 5px;
 }
 
 header nav {
@@ -129,6 +87,7 @@ section {
 }
 
 .bg4  ul {
+    font-size: 1.0em;
     padding: 5px;
 }
 
@@ -137,7 +96,8 @@ section {
 }
 
 .bg4 ul li {
-    list-style-type: none;
+    font-family: var(--fonte4);
+    list-style-type: none;    
 }
 
 .bg2 li a{
@@ -219,50 +179,4 @@ section #data {
 
 section #sign {
     padding: 15px 0px 0px 8px;
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    background-color: var(--cor3);
-    border-left: 1px solid --cor3;
-    border-right: 1px solid --cor3;
-    font-family: var(fonte4);
-    color: white;
-    text-align: center;
-}
-
-footer #selo{
-    height: 12vh;
-    margin-left: 10px;
-}
-
-footer .rodape{
-    margin-left: 20px;
-    padding: 5px 0px;
-}
-
-footer .rodape h1 {
-    font-size: 1em;
-    text-align: left;
-}
-
-footer .rodape > p {
-    font-size: .8em;
-    text-align: left;
-}
-
-footer .rodape a{
-    font-size: .8em;
-    color: white;
-    font-weight: bold;
-    padding: 2px 0px;
-    text-align: left;
-    text-decoration: none;
-    cursor: pointer;  
-}
-
-footer .rodape a:hover{
-    color: var(--cor2);
-    text-decoration: underline;
 }

@@ -26,6 +26,9 @@
     --cor5: #d41367;
     --cor6: #a7aca2;
     --cor7: #54565a;
+    --cor8: #ebebeb;
+    --cor9: #ffffff;
+    --cor10: #000000;
 
     --fonte1: 'Frutiger Light Condensed', cursive;
     --fonte2: 'Frutiger Bold', cursive;
@@ -40,7 +43,7 @@
 }
 
 body {
-    font-family: var(--fonte1);
+    font-family: var(--fonte4);
     max-width: 1080px;
     max-height: 2400px;
     margin: auto;
@@ -49,11 +52,50 @@ body {
     border-right: 1px solid --cor1;
 }
 
-main {
-    font-family: 'Open Sans', sans-serif;;
-    max-width: 400px;
-    max-height: 650px;
-    margin: auto;     
+.ano25 {
+    background-color: var(--cor3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ano25 #logo {
+    height: 10%;
+    padding: 0px 0px 0px 10px;
+}
+
+.ano25 #selo {
+    height: 15vh;
+    padding: 0px 10px 0px 0px;
+}
+
+header div#cabecario {
+    background-color: var(--cor2);
+    border-left: 1px solid var(--cor4);
+    border-right: 1px solid var(--cor4);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: var(cor3);
+}
+
+header div#cabecario a{
+    font-size: .8em;
+    color: rgb(152, 152, 152);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+header div#cabecario h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header div#cabecario h2 {
+    font-size: .8em;
+    text-align: center;
 }
 
 .corpo {
@@ -67,7 +109,7 @@ main {
 }    
 
 header figure {
-    background-color: var(--cor1);
+    background-color: var(--cor3);
 }
 
 header img#logo {
@@ -403,47 +445,33 @@ div#clique a:hover {
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
     background-color: var(--cor3);
-    border-left: 1px solid --cor3;
-    border-right: 1px solid --cor3;
-    font-family: var(fonte4);
+    font-family: var(--fonte4);
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
-footer #selo{
-    height: 12vh;
-    margin-left: 10px;
-}
-
-footer .rodape{
-    margin-left: 20px;
-    padding: 5px 0px;
-}
-
-footer .rodape h1 {
+footer h1 {
     font-size: 1em;
-    text-align: left;
 }
 
-footer .rodape > p {
+footer > p {
     font-size: .8em;
-    text-align: left;
 }
 
-footer .rodape a{
+footer a{
     font-size: .8em;
     color: white;
     font-weight: bold;
-    padding: 2px 0px;
-    text-align: left;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 25px;
     text-decoration: none;
     cursor: pointer;  
 }
 
-footer .rodape a:hover{
-    color: var(--cor2);
+footer a:hover{
+    background-color: var(--cor4);
     text-decoration: underline;
 }
