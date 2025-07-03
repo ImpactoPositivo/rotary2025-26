@@ -50,6 +50,10 @@ body {
     background-color: white;
 }
 
+.container{
+    flex: 1 1 0;
+}
+
 .ano25 {
     background-color: var(--cor3);
     display: flex;
@@ -58,12 +62,12 @@ body {
 }
 
 .ano25 #logo {
-    height: 10VW;
+    height: 10vh;
     padding: 0px 0px 0px 10px;
 }
 
 .ano25 #selo {
-    height: 10vw;
+    height: 10vh;
     padding: 0px 10px 0px 0px;
 }
 
