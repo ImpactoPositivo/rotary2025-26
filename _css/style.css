@@ -98,15 +98,6 @@ header div#cabecario h2 {
     text-align: center;
 }
 
-.corpo {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.bg2 {
-    flex-grow: 1;
-}    
 
 header figure {
     background-color: var(--cor3);
@@ -130,47 +121,35 @@ header h2 {
     text-align: center;
 }
 
-
-section {
+.bg2 {
     background-color: white;
     border-left: 1px solid #3155a4;
     border-right: 1px solid #3155a4;
     color: #3b3535;
     padding: 5px;
-}
-
-section h1 {
-    font-size: 1em;
-    text-align: center; 
-    padding-top: 5px; 
+    min-height: 67vh;    
 }
 
 .bg2 h1 {
+    font-size: 1em;
+    text-align: center; 
+    padding-top: 5px; 
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-section h2 {
+.bg2 h2 {
     font-size: 1em;
     font-weight: bold;
     text-align: justify;
-    padding-top: 10px;
-}
-
-.bg2 h2 {
+    padding-top: 10px 0px 0px 10px;
     color: var(--cor2);
-    padding-top: 5px;
-    padding-left: 10px;
-}
-
-section h3 {
-    font-size: .9em;
-    font-weight: normal;
-    text-align: justify;
 }
 
 .bg2 h3 {
-    font-size: 1em;
+    font-size: .9em;
+    font-weight: normal;
+    text-align: justify;
     padding-left: 10px;
 }
 
@@ -179,16 +158,12 @@ section h3 {
     padding: 10px 10px 0px 10px;
 }
 
-section p {
-    text-align: justify;
+.bg2 p{
     font-size: .9em;
+    line-height: 1.5em;    
     padding: 0px 20px;
     margin-bottom: 5px;
-}
-
-.bg2 p{
-    font-size: 0.9em;
-    line-height: 1.5em;
+    text-align: justify;
 }
 
 .bg2 .comissao {

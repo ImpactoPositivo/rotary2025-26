@@ -127,7 +127,7 @@ header nav a:hover {
     text-decoration: underline;  
 }
 
-section {
+.bg2 {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -135,11 +135,9 @@ section {
     border-right: 1px solid #3155a4;
     color: #3b3535;
     padding: 5px;
+    min-height: 67vh;
 }
 
-.bg2{
-    min-height: 70vh;
-}
 
 .bg2 h1 {
     font-size: 1em;
@@ -321,7 +319,7 @@ img#presidente {
 }
 
 img#acao {
-    width: 95%;
+    width: 97%;
     margin: auto;
     padding: 10px 9px;
 }
@@ -348,6 +346,7 @@ div#enfase p {
 }
 
 article {
+    font-family: var(--fonte4);
     background-color: rgba(223, 222, 222, 0.5);
 }
 
@@ -377,6 +376,7 @@ article {
 }
 
 article#origem {
+    font-family: var(--fonte4);
     background-color: white;
 }
 
