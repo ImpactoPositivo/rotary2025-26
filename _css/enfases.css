@@ -39,7 +39,7 @@
     margin: 0px;
 }
 
-.corpo {
+body {
     font-family: var(--fonte4);
     max-width: 1080px;
     max-height: 2400px;
@@ -49,8 +49,6 @@
     border-right: 1px solid --cor1;
 }
 
-
-
 .ano25 {
     background-color: var(--cor3);
     display: flex;
@@ -58,12 +56,12 @@
     align-items: center;
 }
 
-.ano25 #logo {
+.ano25 img#logo {
     height: 10vh;
     padding: 0px 0px 0px 10px;
 }
 
-.ano25 #selo {
+.ano25 img#selo {
     height: 13vh;
     padding: 0px 10px 0px 0px;
 }

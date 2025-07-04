@@ -59,12 +59,12 @@ body {
     align-items: center;
 }
 
-.ano25 #logo {
-    height: 12%;
+.ano25 img#logo {
+    height: 10vh;
     padding: 0px 0px 0px 10px;
 }
 
-.ano25 #selo {
+.ano25 img#selo {
     height: 13vh;
     padding: 0px 10px 0px 0px;
 }
@@ -110,11 +110,6 @@ header div#cabecario h2 {
 
 header figure {
     background-color: var(--cor3);
-}
-
-header img#logo {
-    width: 35%;
-    padding: 10px; 
 }
 
 header div#cabecario {
