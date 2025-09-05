@@ -64,10 +64,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-.bg2 {
-    flex-grow: 1;
-}    
+ 
 
 header figure {
     background-color: var(--cor3);
@@ -103,6 +100,10 @@ section {
     color: #3b3535;
     padding: 5px;
 }
+
+.bg2 {
+    flex-grow: 1;
+} 
 
 .bg2 h1 {
     font-size: 1em;
@@ -148,7 +149,9 @@ section {
 
 .bg2 table.cidada tbody tr td p{
     font-size: .9em;
+    line-height: 1em;
     text-align: center;
+    padding: 3px;
 }
 
 footer {
